@@ -1,0 +1,45 @@
+.container {
+    background-color: #FFF;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "header header header header"
+    "menu content content content"
+    "add content content content"
+    "add content content content"
+    "footer footer footer footer"
+    ;
+}
+
+.item {
+    background-color: #0000ff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: menu;
+}
+
+main {
+    grid-area: content;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.item ad {
+    grid-area: ad;
+}
+
+.item ad-1 {
+    grid-area: ad;
+}
+

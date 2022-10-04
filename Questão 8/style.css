@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+header {
+    background-color: #111;
+    color: #FFF;
+}
+
+h1, h2, h3, h4 {
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.image {
+    text-align: center;
+}
+
+footer{
+    background: #111;
+    padding: 20px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: #5141e0;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
